@@ -2,6 +2,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     var hadKeyboardEvent = false,
         keyboardModalityWhitelist = [ "input:not([type])",
+                                      "input[type=email]",
                                       "input[type=text]",
                                       "input[type=number]",
                                       "input[type=date]",
