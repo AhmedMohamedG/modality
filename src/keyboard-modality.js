@@ -1,4 +1,4 @@
-/* https://github.com/alice/modality v1.0.0 */
+/* https://github.com/alice/modality v1.0.1 */
 document.addEventListener("DOMContentLoaded", function() {
     var hadKeyboardEvent = false,
         keyboardModalityWhitelist = [ "input:not([type])",
