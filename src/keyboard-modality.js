@@ -1,4 +1,4 @@
-/* https://github.com/alice/modality v1.0.1 */
+/* https://github.com/alice/modality v1.0.2 */
 document.addEventListener("DOMContentLoaded", function() {
     var hadKeyboardEvent = false,
         keyboardModalityWhitelist = [ "input:not([type])",
@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function() {
 		focusTriggersKeyboardModality = function (el) {
 			var triggers = false;
 			if (matcher) {
-				triggers = matcher.call(el, keyboardModalityWhitelist) && matcher.call(el, ":not([readonly]");
+				triggers = matcher.call(el, keyboardModalityWhitelist) && matcher.call(el, ":not([readonly])");
 			}
 		        return triggers;
 		};
