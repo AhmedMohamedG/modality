@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
         keyboardModalityWhitelist = [ "input:not([type])",
                                       "input[type=email]",
                                       "input[type=text]",
+                                      "input[type=password]",
                                       "input[type=number]",
                                       "input[type=date]",
                                       "input[type=time]",
